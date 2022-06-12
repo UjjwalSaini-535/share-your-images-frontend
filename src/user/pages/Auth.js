@@ -67,11 +67,11 @@ const Auth = () => {
           formData
         );
 
-        console.log(finalData);
+        // console.log(finalData);
         auth.login(finalData.data.user._id, finalData.token);
         //
       } catch (err) {
-        console.log(err);
+        // console.log(err);
       }
     }
   };
